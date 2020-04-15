@@ -49,7 +49,7 @@ public class HashSetTest {
         hs.remove(r2);//删除-3，会进行比较，然后删除的是第二个-3，但第一个原-2的位置已经修改为-3，会导致集合容易出错，所以建议不要轻易修改
         System.out.println(hs);
         System.out.println(hs.contains(r2));
-        LinkedHashSet linkedHashSet = new LinkedHashSet();//定义LinkedHashSet类，是其子类。用链表维护顺序这样添加顺序就是元素顺序
+        LinkedHashSet linkedHashSet = new LinkedHashSet();//定义LinkedHashSet类，是其子类。用链表维护顺序这样添加顺序就是元素顺序，但性能略低
         linkedHashSet.add("1");
         linkedHashSet.add("2");
         linkedHashSet.add("3");
