@@ -1,3 +1,5 @@
+package SetMap;
+
 import java.util.*;
 /**
  * HashSet集合类
@@ -10,7 +12,7 @@ class R{
 //重写相关函数
     @Override
     public String toString() {
-        return "R{" +
+        return "SetMap.R{" +
                 "count=" + count +
                 '}';
     }

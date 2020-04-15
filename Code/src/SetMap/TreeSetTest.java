@@ -1,3 +1,5 @@
+package SetMap;
+
 import java.util.TreeSet;
 /**
  * 实现TreeSet类
@@ -9,7 +11,7 @@ class T implements Comparable{
     }
     @Override
     public String toString(){
-        return "T[count:" + count + "]";
+        return "SetMap.T[count:" + count + "]";
     }
     @Override
     public boolean equals(Object obj){

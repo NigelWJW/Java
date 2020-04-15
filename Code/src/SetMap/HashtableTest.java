@@ -1,3 +1,5 @@
+package SetMap;
+
 import java.util.Hashtable;
 /**
  * Hashtable类测试
@@ -10,7 +12,7 @@ class A {
 
     @Override
     public String toString() {
-        return "A[" +count +  "]";
+        return "SetMap.A[" +count +  "]";
     }
 
     @Override
@@ -37,11 +39,11 @@ public class HashtableTest {
         A a1 = new A(10);
         A a2 = new A(20);
         A a3 = new A(-10);
-        ht.put(a1," A class");
+        ht.put(a1," SetMap.A class");
         ht.put(a2," B class");
         ht.put(a3," C class");
         System.out.println(ht);
-        System.out.println(ht.containsValue(" A class"));
+        System.out.println(ht.containsValue(" SetMap.A class"));
         System.out.println(ht.containsKey(new A(-10)));
         ht.remove(new A(10));
         System.out.println(ht);
