@@ -8,6 +8,8 @@
     + [Hashtable测试类](https://github.com/NigelWJW/Java/blob/master/Code/src/SetMap/HashmapTest.java)
     
     + [HashMap测试类](https://github.com/NigelWJW/Java/blob/master/Code/src/SetMap/HashMapTest.java)  
+    
+    + [TreeMap测试类](https://github.com/NigelWJW/Java/blob/master/Code/src/SetMap/TreeMapTest.java)  
           
 * [Java设计模式](https://github.com/NigelWJW/Java/tree/master/DesignPatterns/src).
 
