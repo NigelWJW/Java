@@ -41,7 +41,7 @@ public class HashSetTest {
         hs.add(r3);
         R r4 = new R(-2);
         hs.add(r4);
-        System.out.println(hs);
+        System.out.println(hs);//HashSet顺序是按hashcoding值来排序
         Iterator it = hs.iterator();//使用迭代器取第一个数
         R first = (R) it.next();
         first.count = -3;
@@ -49,7 +49,7 @@ public class HashSetTest {
         hs.remove(r2);//删除-3，会进行比较，然后删除的是第二个-3，但第一个原-2的位置已经修改为-3，会导致集合容易出错，所以建议不要轻易修改
         System.out.println(hs);
         System.out.println(hs.contains(r2));
-        LinkedHashSet linkedHashSet = new LinkedHashSet();
+        LinkedHashSet linkedHashSet = new LinkedHashSet();//定义LinkedHashSet类，是其子类。用链表维护顺序这样添加顺序就是元素顺序
         linkedHashSet.add("1");
         linkedHashSet.add("2");
         linkedHashSet.add("3");
