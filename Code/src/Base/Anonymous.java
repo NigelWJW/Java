@@ -1,4 +1,8 @@
 package Base;
+
+import java.util.HashSet;
+import java.util.Iterator;
+
 /**
  * 匿名内部类及Lambda表达式的使用
  */
@@ -50,5 +54,27 @@ public class Anonymous {
                 System.out.println(i+" ");
             }
         };
+
+        HashSet hs = new HashSet();//创建一个集合
+        hs.add("books");
+        hs.add("fish");
+        hs.add("table");
+        hs.forEach(obj->System.out.println("迭代元素： " + obj));//Lambda作为函数接口
+
+        Iterator it = hs.iterator();
+        while (it.hasNext()){//Iterator遍历集合
+            String book = (String) it.next();
+            System.out.println(book);
+        }
+        it.forEachRemaining(obj->System.out.println("迭代元素： " + obj));//使用Lambda遍历Iterator
+
+
+
+
+
+
+
     }
+
+
 }
