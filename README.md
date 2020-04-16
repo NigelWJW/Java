@@ -1,6 +1,8 @@
 ## Java知识提要
 * [Java基础](https://github.com/NigelWJW/Java/tree/master/Code/src).
 
+    + [内部类使用](https://github.com/NigelWJW/Java/blob/master/Code/src/SetMap/Outside.java)
+    
     + [HashSet测试类](https://github.com/NigelWJW/Java/blob/master/Code/src/SetMap/HashSetTest.java)
     
     + [TreeSet测试类](https://github.com/NigelWJW/Java/blob/master/Code/src/SetMap/TreeSetTest.java)
