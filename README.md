@@ -14,6 +14,8 @@
     + [HashMap测试类](https://github.com/NigelWJW/Java/blob/master/Code/src/SetMap/HashMapTest.java)  
     
     + [TreeMap测试类](https://github.com/NigelWJW/Java/blob/master/Code/src/SetMap/TreeMapTest.java)  
+    
+    + [TreeMap测试类](https://github.com/NigelWJW/Java/blob/master/Code/src/Base/CatchThrowTest.java)  
           
 * [Java设计模式](https://github.com/NigelWJW/Java/tree/master/DesignPatterns/src).
 
