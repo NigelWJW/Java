@@ -5,6 +5,8 @@
     
     + [Lambda表达式使用](https://github.com/NigelWJW/Java/blob/master/Code/src/Base/Anonymous.java)
     
+    + [IO操作流使用](https://github.com/NigelWJW/Java/blob/master/Code/src/Base/StreamTest.java)  
+      
     + [HashSet测试类](https://github.com/NigelWJW/Java/blob/master/Code/src/SetMap/HashSetTest.java)
     
     + [TreeSet测试类](https://github.com/NigelWJW/Java/blob/master/Code/src/SetMap/TreeSetTest.java)
