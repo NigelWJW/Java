@@ -7,7 +7,9 @@
     
     + [泛型操作](https://github.com/NigelWJW/Java/blob/master/Code/src/Base/GenericTest.java)
     
-    + [多线程操作](https://github.com/NigelWJW/Java/blob/master/Code/src/Base/ThreadTest.java)   
+    + [多线程创建及控制操作](https://github.com/NigelWJW/Java/blob/master/Code/src/Base/ThreadTest.java)   
+    
+    + [多线程同步及线程同步和传统通信操作通信操作](https://github.com/NigelWJW/Java/blob/master/Code/src/Base/ThreadSynchronizedTest.java)   
     
     + [IO操作流操作](https://github.com/NigelWJW/Java/blob/master/Code/src/Base/StreamTest.java)  
     
