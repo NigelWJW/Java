@@ -9,9 +9,9 @@
     
     + [多线程创建及控制操作](https://github.com/NigelWJW/Java/blob/master/Code/src/Base/ThreadTest.java)   
     
-    + [多线程同步及线程同步和传统通信操作通信操作](https://github.com/NigelWJW/Java/blob/master/Code/src/Base/ThreadSynchronizedTest.java)   
+    + [多线程同步及线程同步、传统线程通信操作](https://github.com/NigelWJW/Java/blob/master/Code/src/Base/ThreadSynchronizedTest.java)   
 
-    + [多线程使用阻塞队列控制线程通信操作](https://github.com/NigelWJW/Java/blob/master/Code/src/Base/BlockQueueTest.java) 
+    + [多线程使用阻塞队列进行线程通信操作](https://github.com/NigelWJW/Java/blob/master/Code/src/Base/BlockQueueTest.java) 
       
     + [多线程线程池操作](https://github.com/NigelWJW/Java/blob/master/Code/src/Base/ThreadPoolTest.java)   
          
