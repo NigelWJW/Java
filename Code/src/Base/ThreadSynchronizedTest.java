@@ -2,7 +2,7 @@ package Base;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
 /**
- * 线程同步和传统通信操作，采用银行取钱
+ * 线程同步和传统通信操作及本地类，采用银行取钱
  */
 class Account{//账户类
     private String accountNo;//账户编号
@@ -10,7 +10,11 @@ class Account{//账户类
     private boolean flag = false;//表示账户是否已有存款标识，初始是没有人存钱
     private final ReentrantLock lock = new ReentrantLock();//使用可重入锁加锁
     private final Condition condition = lock.newCondition();//获取lock对象的condition
+    private ThreadLocal<String> name = new ThreadLocal<>();//定义一个ThreadLocal变量，每个线程都会保存该变量的副本，不会相互竞争影响，如果要线程通信则不用
     public Account(){}
+    public Account(String str){
+        this.name.set(str);//访问当前线程的name副本的值
+    }
     public Account(String accountNo,double balance){
         this.accountNo = accountNo;
         this.balance = balance;
@@ -26,6 +30,12 @@ class Account{//账户类
     }
     public void setBalance(double balance) {
         this.balance = balance;
+    }
+    public void setName(String name) {
+        this.name.set(name);
+    }
+    public String getName(){
+        return name.get();
     }
     @Override
     public int hashCode() {
@@ -234,8 +244,21 @@ class Draw extends Thread{//模拟账户取钱
         }
     }
 }
-
-
+class Local extends Thread{//线程局部变量
+    private final Account account;//用户账户
+    public Local(Account account,String name) {
+        super(name);
+        this.account = account;
+    }
+    public void run(){
+        for (int i = 0;i<10;i++){
+            if (i == 6){
+                account.setName(getName());
+            }
+            System.out.println(account.getName() + " 账户的值 " + i);
+        }
+    }
+}
 public class ThreadSynchronizedTest {
     public static void main(String[] args){
         Account account = new Account("111",10000);
@@ -243,5 +266,7 @@ public class ThreadSynchronizedTest {
         new Deposit("Jerry存钱",account,500).start();
         new Deposit("Jack存钱",account,500).start();
         new Deposit("Lucy存钱",account,500).start();
+//        new Local(account,"Tom").start();//测试局部线程变量
+//        new Local(account,"Jerry").start();
     }
 }
