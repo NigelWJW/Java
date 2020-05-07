@@ -23,7 +23,7 @@
     
     + [TreeSet操作](https://github.com/NigelWJW/Java/blob/master/Code/src/SetMap/TreeSetTest.java)
     
-    + [Hashtable操作](https://github.com/NigelWJW/Java/blob/master/Code/src/SetMap/HashmapTest.java)
+    + [Hashtable操作](https://github.com/NigelWJW/Java/blob/master/Code/src/SetMap/HashtableTest.java)
     
     + [HashMap操作](https://github.com/NigelWJW/Java/blob/master/Code/src/SetMap/HashMapTest.java)  
     
