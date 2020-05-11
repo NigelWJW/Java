@@ -1,6 +1,5 @@
 ## Java知识提要
 * [Java基础](https://github.com/NigelWJW/Java/tree/master/Code/src).
-
     + [内部类操作](https://github.com/NigelWJW/Java/blob/master/Code/src/Base/Outside.java)
     
     + [Lambda表达式操作](https://github.com/NigelWJW/Java/blob/master/Code/src/Base/Anonymous.java)
@@ -31,7 +30,27 @@
     
 * [Java设计模式](https://github.com/NigelWJW/Java/tree/master/DesignPatterns/src).
 
-    + [单例模式](https://github.com/NigelWJW/Java/blob/master/DesignPatterns/src/Singleton.java)
+    + [设计模式七大法则](https://github.com/NigelWJW/Java/tree/master/DesignPatterns/src/Principle).
     
+         + [单一职责原则](https://github.com/NigelWJW/Java/tree/master/DesignPatterns/src/Principle/SingleResponsibility3.java)  
+         
+         + [接口分离原则](https://github.com/NigelWJW/Java/tree/master/DesignPatterns/src/Principle/Segregation1.java) 
+          
+         + [依赖倒置原则](https://github.com/NigelWJW/Java/tree/master/DesignPatterns/src/Principle/DependencyInversion2.java)  
+         
+         + [里式原则](https://github.com/NigelWJW/Java/tree/master/DesignPatterns/src/Principle/LisKov.java)  
+         
+         + [开闭原则](https://github.com/NigelWJW/Java/tree/master/DesignPatterns/src/Principle/OCP1.java)  
+         
+         + [德米特原则](https://github.com/NigelWJW/Java/tree/master/DesignPatterns/src/Principle/Demeter1.java) 
+                      
+    + [单例模式](https://github.com/NigelWJW/Java/tree/master/DesignPatterns/src/Singleton).
+        
+        + [单例模式](https://github.com/NigelWJW/Java/blob/master/DesignPatterns/src/Singleton/Singleton.java)
+             
+    
+    
+
+            
    
     
