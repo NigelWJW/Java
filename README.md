@@ -46,11 +46,18 @@
                       
     + [单例模式](https://github.com/NigelWJW/Java/tree/master/DesignPatterns/src/Singleton).
         
-        + [单例模式](https://github.com/NigelWJW/Java/blob/master/DesignPatterns/src/Singleton/Singleton.java)
-             
-    
-    
-
-            
-   
-    
+        + [饿汉式-静态变量](https://github.com/NigelWJW/Java/blob/master/DesignPatterns/src/Singleton/SingletonTest.java)
+        
+        + [饿汉式-静态初始化块](https://github.com/NigelWJW/Java/blob/master/DesignPatterns/src/Singleton/SingletonTest1.java)  
+                   
+        + [懒汉式-线程不安全](https://github.com/NigelWJW/Java/blob/master/DesignPatterns/src/Singleton/SingletonTest2.java)    
+        
+        + [懒汉式-线程安全，同步方法](https://github.com/NigelWJW/Java/blob/master/DesignPatterns/src/Singleton/SingletonTest3.java)  
+         
+        + [懒汉式-线程不安全，同步代码块](https://github.com/NigelWJW/Java/blob/master/DesignPatterns/src/Singleton/SingletonTest4.java)
+        
+        + [双重检查](https://github.com/NigelWJW/Java/blob/master/DesignPatterns/src/Singleton/SingletonTest5.java)     
+               
+        + [内部静态类式](https://github.com/NigelWJW/Java/blob/master/DesignPatterns/src/Singleton/SingletonTest6.java)   
+        
+        + [枚举类式](https://github.com/NigelWJW/Java/blob/master/DesignPatterns/src/Singleton/SingletonTest7.java)    
