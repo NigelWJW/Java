@@ -1,0 +1,1 @@
+package Factory;/** *  披萨店 */public class PizzaStore {    public static void main(String[] args){        //简单方法//        new OrderPizza();        //简单工厂模式        new OrderPizza(new SimpleFactory());        System.out.println(" 退出 ");        //简单工厂模式2//        new OrderPizza2();    }}

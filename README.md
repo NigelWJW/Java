@@ -61,3 +61,11 @@
         + [内部静态类式](https://github.com/NigelWJW/Java/blob/master/DesignPatterns/src/Singleton/SingletonTest6.java)   
         
         + [枚举类式](https://github.com/NigelWJW/Java/blob/master/DesignPatterns/src/Singleton/SingletonTest7.java)    
+        
+    + [工厂模式](https://github.com/NigelWJW/Java/tree/master/DesignPatterns/src/Factory).
+    
+        + [简单工厂模式](https://github.com/NigelWJW/Java/blob/master/DesignPatterns/src/Factory/OrderPizza.java)    
+        
+        + [工厂方法模式](https://github.com/NigelWJW/Java/blob/master/DesignPatterns/src/Factory/OrderPizza2.java)   
+            
+        + [抽象工厂模式](https://github.com/NigelWJW/Java/blob/master/DesignPatterns/src/Factory/OrderPizza3.java)
