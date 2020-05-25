@@ -1,18 +1,18 @@
-package Factory;
+package Factory.FactoryMethod;
+
 /**
- * 伦敦子工厂
+ * 伦敦的工厂生产伦敦披萨
  */
-public class LDFactory implements AbsFactory {
+public class LDOrderPizza extends OrderPizza2 {
     @Override
-    public Pizza2 createPizza(String orderType) {
-        System.out.println("~使用的是抽象工厂模式~");
+    public Pizza2 creatPizza2(String orderType) {
         Pizza2 pizza = null;
         if (orderType.equals("cheese")) {
             pizza = new LDCheesePizza();
         } else if (orderType.equals("pepper")) {
             pizza = new LDPepperPizza();
         }
+        // TODO Auto-generated method stub
         return pizza;
     }
-
 }

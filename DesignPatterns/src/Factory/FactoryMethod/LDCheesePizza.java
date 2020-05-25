@@ -1,5 +1,6 @@
-package Factory;
-public class LDCheesePizza extends Pizza2{
+package Factory.FactoryMethod;
+
+public class LDCheesePizza extends Pizza2 {
 
     @Override
     public void prepare() {

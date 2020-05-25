@@ -64,8 +64,18 @@
         
     + [工厂模式](https://github.com/NigelWJW/Java/tree/master/DesignPatterns/src/Factory).
     
-        + [简单工厂模式](https://github.com/NigelWJW/Java/blob/master/DesignPatterns/src/Factory)    
+        + [简单工厂模式](https://github.com/NigelWJW/Java/blob/master/DesignPatterns/src/Factory/SimpleFactory)    
         
-        + [工厂方法模式](https://github.com/NigelWJW/Java/blob/master/DesignPatterns/src/Factory)   
+        + [工厂方法模式](https://github.com/NigelWJW/Java/blob/master/DesignPatterns/src/Factory/FactoryMethod)   
             
-        + [抽象工厂模式](https://github.com/NigelWJW/Java/blob/master/DesignPatterns/src/Factory)
+        + [抽象工厂模式](https://github.com/NigelWJW/Java/blob/master/DesignPatterns/src/Factory/AbstractFactory)
+        
+    + [原型模式](https://github.com/NigelWJW/Java/tree/master/DesignPatterns/src/Prototype).
+            
+         + [传统模式](https://github.com/NigelWJW/Java/blob/master/DesignPatterns/src/Prototype/Tradition)    
+                
+         + [克隆原型模式](https://github.com/NigelWJW/Java/blob/master/DesignPatterns/src/Prototype/Clone)   
+         
+         + [深拷贝和浅拷贝](https://github.com/NigelWJW/Java/blob/master/DesignPatterns/src/Prototype/DeepClonable)  
+                    
+                

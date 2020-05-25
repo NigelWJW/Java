@@ -1,4 +1,7 @@
-package Factory;
+package Factory.AbstractFactory;
+
+import Factory.FactoryMethod.Pizza2;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;

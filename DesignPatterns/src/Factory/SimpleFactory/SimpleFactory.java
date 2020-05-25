@@ -1,4 +1,4 @@
-package Factory;
+package Factory.SimpleFactory;
 /**
  *  披萨简单工厂，把创建披萨对象放在一个类中，这样我们新增披萨类就只用修改这里即可
  */

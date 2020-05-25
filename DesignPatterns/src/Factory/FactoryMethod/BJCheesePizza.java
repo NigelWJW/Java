@@ -1,4 +1,5 @@
-package Factory;
+package Factory.FactoryMethod;
+
 public class BJCheesePizza extends Pizza2 {
     @Override
     public void prepare() {

@@ -1,6 +1,6 @@
-package Factory;
+package Factory.FactoryMethod;
 
-public class LDPepperPizza extends Pizza2{
+public class LDPepperPizza extends Pizza2 {
     @Override
     public void prepare() {
         // TODO Auto-generated method stub

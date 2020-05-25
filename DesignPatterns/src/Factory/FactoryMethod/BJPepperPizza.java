@@ -1,4 +1,4 @@
-package Factory;
+package Factory.FactoryMethod;
 
 public class BJPepperPizza extends Pizza2 {
     @Override

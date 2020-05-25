@@ -1,4 +1,4 @@
-package Factory;
+package Factory.FactoryMethod;
 /**
  * 抽象披萨类
  */

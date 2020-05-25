@@ -1,6 +1,7 @@
-package Factory;
+package Factory.FactoryMethod;
+
 /**
- *  披萨店
+ * 披萨店
  */
 public class PizzaStore2 {
     public static void main(String[] args) {
