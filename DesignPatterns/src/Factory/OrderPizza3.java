@@ -1,10 +1,12 @@
 package Factory;
-/**
- * 抽象工厂方法，创建对象实例不要直接new，而是放在一个工厂类，且类继承抽象类或接口，不覆盖基类方法
- */
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+//
+/**
+ * 抽象工厂方法，创建对象实例不要直接new，而是放在一个工厂类，且类继承抽象类或接口，不覆盖基类方法
+ */
+
 public class OrderPizza3 {
     AbsFactory factory;
     // 构造器
@@ -30,6 +32,7 @@ public class OrderPizza3 {
             }
         } while (true);
     }
+
 
     // 写一个方法，可以获取客户希望订购的披萨种类
     private String getType() {
