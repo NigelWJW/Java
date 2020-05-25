@@ -66,6 +66,6 @@
     
         + [简单工厂模式](https://github.com/NigelWJW/Java/blob/master/DesignPatterns/src/Factory/OrderPizza.java)    
         
-        + [工厂方法模式](https://github.com/NigelWJW/Java/blob/master/DesignPatterns/src/Factory/OrderPizza.java)   
+        + [工厂方法模式](https://github.com/NigelWJW/Java/blob/master/DesignPatterns/src/Factory/OrderPizza2.java)   
             
-        + [抽象工厂模式](https://github.com/NigelWJW/Java/blob/master/DesignPatterns/src/Factory/OrderPizza.java)
+        + [抽象工厂模式](https://github.com/NigelWJW/Java/blob/master/DesignPatterns/src/Factory/OrderPizza3.java)
