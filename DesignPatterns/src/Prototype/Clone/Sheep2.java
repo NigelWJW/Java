@@ -8,7 +8,7 @@ public class Sheep2 implements Cloneable {
     private String name;
     private int age;
     private String color;
-    private String address = "蒙古羊";
+    private String address = "蒙古羊";//默认是浅拷贝
 
     public Sheep2(String name, int age, String color) {
         super();
