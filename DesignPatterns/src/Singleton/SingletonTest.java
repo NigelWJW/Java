@@ -4,6 +4,7 @@ package Singleton;
  * 不允许自由创建对象，应用于打印机等多对象无太大的意义的场景。
  * 饿汉式(静态常量)：饿汉含义就是有就接收，优点是简单runtime就是这种方法，类加载时就完成实例化避免了线程同步的问题，但是可能存在内存浪费，而且可以通过
  * 其他类加载方法跳过getInstace方法
+ * Runtime类就是这种模式，里面的currentRuntime就是静态变量
  */
 public class SingletonTest {
     public static void main(String[] args){
