@@ -72,10 +72,32 @@
         
     + [原型模式](https://github.com/NigelWJW/Java/tree/master/DesignPatterns/src/Prototype).
             
-         + [传统模式](https://github.com/NigelWJW/Java/blob/master/DesignPatterns/src/Prototype/Tradition)    
+         + [传统模式](https://github.com/NigelWJW/Java/blob/master/DesignPatterns/src/Prototype/Tradition/Client.java)    
                 
-         + [克隆原型模式](https://github.com/NigelWJW/Java/blob/master/DesignPatterns/src/Prototype/Clone)   
+         + [克隆原型模式](https://github.com/NigelWJW/Java/blob/master/DesignPatterns/src/Prototype/Clone/Client.java)   
          
-         + [深拷贝和浅拷贝](https://github.com/NigelWJW/Java/blob/master/DesignPatterns/src/Prototype/DeepClonable)  
-                    
+         + [深拷贝和浅拷贝](https://github.com/NigelWJW/Java/blob/master/DesignPatterns/src/Prototype/DeepClonable/Client.java)  
+                      
+    + [适配器模式](https://github.com/NigelWJW/Java/tree/master/DesignPatterns/src/Adapter).
+            
+         + [类适配器模式](https://github.com/NigelWJW/Java/blob/master/DesignPatterns/src/Adapter/classadapter/Client.java)    
                 
+         + [对象适配器模式](https://github.com/NigelWJW/Java/blob/master/DesignPatterns/src/Adapter/objectadapter/Client.java)   
+         
+         + [接口适配器模式](https://github.com/NigelWJW/Java/blob/master/DesignPatterns/src/Adapter/interfaceadapter/Client.java)  
+                    
+    + [桥接模式](https://github.com/NigelWJW/Java/tree/master/DesignPatterns/src/Bridge).
+            
+         + [桥接模式](https://github.com/NigelWJW/Java/blob/master/DesignPatterns/src/Bridge/Client.java)    
+                                      
+    + [装饰者模式](https://github.com/NigelWJW/Java/tree/master/DesignPatterns/src/decorator).
+            
+         + [装饰者模式](https://github.com/NigelWJW/Java/blob/master/DesignPatterns/src/decorator/CoffeeBar.java)    
+                                    
+    + [建造模式](https://github.com/NigelWJW/Java/tree/master/DesignPatterns/src/Builder).
+            
+         + [传统模式](https://github.com/NigelWJW/Java/blob/master/DesignPatterns/src/Builder/Trandition/Client.java)    
+                
+         + [建造者模式](https://github.com/NigelWJW/Java/blob/master/DesignPatterns/src/Builder/Buider/House.java)   
+         
+                                     
