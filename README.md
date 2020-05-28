@@ -100,4 +100,32 @@
                 
          + [建造者模式](https://github.com/NigelWJW/Java/blob/master/DesignPatterns/src/Builder/Buider/House.java)   
          
-                                     
+    + [命令模式](https://github.com/NigelWJW/Java/tree/master/DesignPatterns/src/command).
+            
+         + [命令模式](https://github.com/NigelWJW/Java/tree/master/DesignPatterns/src/command/Client.java)  
+           
+    + [组合模式](https://github.com/NigelWJW/Java/tree/master/DesignPatterns/src/composite).
+            
+         + [组合模式](https://github.com/NigelWJW/Java/tree/master/DesignPatterns/src/composite/Client.java)    
+         
+    + [外观模式](https://github.com/NigelWJW/Java/tree/master/DesignPatterns/src/facade).
+            
+         + [外观模式](https://github.com/NigelWJW/Java/tree/master/DesignPatterns/src/facade/Client.java)  
+           
+    + [享元模式](https://github.com/NigelWJW/Java/tree/master/DesignPatterns/src/flyweight).
+            
+         + [享元模式](https://github.com/NigelWJW/Java/tree/master/DesignPatterns/src/flyweight/Client.java)    
+         
+    + [代理模式](https://github.com/NigelWJW/Java/tree/master/DesignPatterns/src/proxy).
+            
+         + [静态代理模式](https://github.com/NigelWJW/Java/tree/master/DesignPatterns/src/proxy/staticproxy/Client.java) 
+          
+         + [动态代理模式-反射机制](https://github.com/NigelWJW/Java/tree/master/DesignPatterns/src/proxy/dynamic/Client.java)  
+         
+         + [动态代理模式-Cglib子类机制](https://github.com/NigelWJW/Java/tree/master/DesignPatterns/src/proxy/cglib/Client.java)                      
+
+    + [模板方法模式](https://github.com/NigelWJW/Java/tree/master/DesignPatterns/src/template).
+            
+         + [传统模板方法模式](https://github.com/NigelWJW/Java/tree/master/DesignPatterns/src/template/Trandition/Client.java)    
+         
+         + [模板加钩子方法模式](https://github.com/NigelWJW/Java/tree/master/DesignPatterns/src/template/improve/Client.java)                                                                                  
