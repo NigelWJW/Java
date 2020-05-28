@@ -1,7 +1,10 @@
 package composite;
 
 /**
- * 用户类，组合模式创建了类似树形模式表示整体和局部的关系
+ * 用户类，组合模式创建了类似树形模式表示整体和局部的关系，简化了客户端操作，客户端只用面对一致的对象而不是整体和部分
+ * 也有较强的可扩展性，方便增加，建立和树形适合，但是要求较高的抽象性，差异较大就不适合
+ * HashMap中使用了组合模式，其中Map作为Component，子类包括AbstractHashMap和HashMap是Composite，HashMap的
+ * Node子类是叶子节点
  */
 public class Client {
 	public static void main(String[] args) {
