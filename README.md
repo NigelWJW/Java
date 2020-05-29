@@ -128,4 +128,34 @@
             
          + [传统模板方法模式](https://github.com/NigelWJW/Java/tree/master/DesignPatterns/src/template/Trandition/Client.java)    
          
-         + [模板加钩子方法模式](https://github.com/NigelWJW/Java/tree/master/DesignPatterns/src/template/improve/Client.java)                                                                                  
+         + [模板加钩子方法模式](https://github.com/NigelWJW/Java/tree/master/DesignPatterns/src/template/improve/Client.java)  
+            
+    + [解释器模式](https://github.com/NigelWJW/Java/tree/master/DesignPatterns/src/interpreter).
+            
+         + [解释器模式](https://github.com/NigelWJW/Java/tree/master/DesignPatterns/src/interpreter/Client.java)    
+         
+    + [中介者模式](https://github.com/NigelWJW/Java/tree/master/DesignPatterns/src/mediator).
+             
+         + [中介者模式](https://github.com/NigelWJW/Java/tree/master/DesignPatterns/src/mediator/Client.java)    
+          
+    + [迭代器模式](https://github.com/NigelWJW/Java/tree/master/DesignPatterns/src/iterator).
+            
+         + [迭代器模式](https://github.com/NigelWJW/Java/tree/master/DesignPatterns/src/iterator/Client.java)    
+         
+    + [备忘录模式](https://github.com/NigelWJW/Java/tree/master/DesignPatterns/src/memento).
+            
+         + [备忘录记录单一属性模式](https://github.com/NigelWJW/Java/tree/master/DesignPatterns/src/memento/game/Client.java)    
+         
+         + [备忘录记录多属性模式](https://github.com/NigelWJW/Java/tree/master/DesignPatterns/src/memento/theory/Client.java) 
+                   
+    + [观察者模式](https://github.com/NigelWJW/Java/tree/master/DesignPatterns/src/observer).
+            
+         + [传统方法模式-无动态更新](https://github.com/NigelWJW/Java/tree/master/DesignPatterns/src/observer/Traditoin/Client.java)    
+         
+         + [观察者模式](https://github.com/NigelWJW/Java/tree/master/DesignPatterns/src/observer/improve/Client.java)            
+         
+    + [访问者模式](https://github.com/NigelWJW/Java/tree/master/DesignPatterns/src/visitor).
+            
+         + [访问者模式](https://github.com/NigelWJW/Java/tree/master/DesignPatterns/src/visitor/Client.java)    
+         
+                                                                                            
