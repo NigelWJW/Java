@@ -156,6 +156,22 @@
          
     + [访问者模式](https://github.com/NigelWJW/Java/tree/master/DesignPatterns/src/visitor).
             
-         + [访问者模式](https://github.com/NigelWJW/Java/tree/master/DesignPatterns/src/visitor/Client.java)    
+         + [访问者模式](https://github.com/NigelWJW/Java/tree/master/DesignPatterns/src/visitor/Client.java)  
+           
+    + [职责链模式](https://github.com/NigelWJW/Java/tree/master/DesignPatterns/src/responsibilitychain).
+            
+         + [职责链模式](https://github.com/NigelWJW/Java/tree/master/DesignPatterns/src/responsibilitychain/Client.java)    
+         
+    + [状态模式](https://github.com/NigelWJW/Java/tree/master/DesignPatterns/src/state).
+            
+         + [状态模式-贷款](https://github.com/NigelWJW/Java/tree/master/DesignPatterns/src/state/Money/Client.java)  
+          
+         + [状态模式-抽奖](https://github.com/NigelWJW/Java/tree/master/DesignPatterns/src/state/Raffle/Client.java)          
+          
+    + [策略模式](https://github.com/NigelWJW/Java/tree/master/DesignPatterns/src/strategy).
+            
+         + [传统模式](https://github.com/NigelWJW/Java/tree/master/DesignPatterns/src/strategy/Trandition/Client.java)   
+         
+         + [策略模式](https://github.com/NigelWJW/Java/tree/master/DesignPatterns/src/strategy/Improve/Client.java)          
          
                                                                                             
