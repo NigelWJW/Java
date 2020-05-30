@@ -12,7 +12,7 @@ public class Client {
 
 		ToyDuck toyDuck = new ToyDuck();
 		toyDuck.fly();
-		
+
 		PekingDuck pekingDuck = new PekingDuck();
 		pekingDuck.fly();
 
