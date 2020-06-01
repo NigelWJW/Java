@@ -1,4 +1,4 @@
-package Base;
+package Thread;
 import java.util.concurrent.FutureTask;
 /**
  * 多线程创建及控制测试
