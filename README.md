@@ -83,9 +83,9 @@
             
          + [传统模式](https://github.com/NigelWJW/Java/blob/master/DesignPatterns/src/Prototype/Tradition/Client.java)    
                 
-         + [克隆原型模式](https://github.com/NigelWJW/Java/blob/master/DesignPatterns/src/Prototype/Clone/Client.java)   
+         + [克隆原型模式](https://github.com/NigelWJW/Java/blob/master/DesignPatterns/src/Prototype/Clone/Client2.java)   
          
-         + [深拷贝和浅拷贝](https://github.com/NigelWJW/Java/blob/master/DesignPatterns/src/Prototype/DeepClonable/Client.java)  
+         + [深拷贝和浅拷贝](https://github.com/NigelWJW/Java/blob/master/DesignPatterns/src/Prototype/DeepClonable/Client3.java)  
                       
     + [适配器模式](https://github.com/NigelWJW/Java/tree/master/DesignPatterns/src/Adapter).
             
